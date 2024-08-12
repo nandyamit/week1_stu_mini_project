@@ -3,21 +3,26 @@
     margin: 0;
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #165c0f;
+  border-bottom: 7px solid #E0AE97;
+}
 .header {
     line-height: 50px;
     background-color: #165c0f;
     text-align: right;
 }
 
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    background-color: #165c0f;
-    border-bottom: 7px solid #E0AE97;
-  }
-
+.anchor {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+  } 
 
 .div1 {
     color: #533800;
@@ -37,7 +42,7 @@
     padding: 20px;
     background-color: #E8CEBF;
     border: 5px solid #E0AE97;
-    width: 500px;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -72,13 +77,6 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-
-.anchor {
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    padding-right: 20px;
-  } 
 
 input[type=submit] {
     background-color: hsl(40, 100%, 16%);
